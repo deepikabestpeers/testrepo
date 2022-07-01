@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-s = Service("C:/Users/Bestpeers/PycharmProjects/seleniumPython/drivers/chromedriver.exe")
+s = Service(".\\demoAutomationPython\\drivers\\chromedriver.exe")
 driver = webdriver.Chrome(service=s)
 driver.get('http://demo.automationtesting.in/Register.html')
 driver.maximize_window()
